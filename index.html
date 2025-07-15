@@ -13,6 +13,8 @@
             margin: 0;
             padding: 0;
             font-family: sans-serif;
+            background-image: url('bg.jpg');
+            background-repeat: no-repeat;
         }
 
         header {
@@ -24,7 +26,7 @@
             margin: 0;
             justify-content: start;
             width: 100%;
-            background-color: black;
+            background-color: transparent;
         }
 
         #logo {
@@ -44,7 +46,6 @@
             align-items: center;
             gap: 20px;
             width: 70%;
-            background-color: black;
             
         }
 
@@ -55,7 +56,6 @@
         }
 
         #first {
-            background-image: url('bg.jpg');
             width: 100%;
             height: 700px;
             background-repeat: no-repeat;
@@ -71,6 +71,7 @@
         #sixth {
             text-align: center;
             padding: 40px 20px;
+            background-color: white;
         }
 
         #third,
@@ -81,6 +82,7 @@
             justify-content: center;
             gap: 40px;
             padding: 20px;
+            background-color: white;
         }
 
         #fourth,
@@ -164,27 +166,39 @@
                 gap: 20px;
             }
         }
+        #twelve{
+            background-image: url('https://www.barniescoffee.com/cdn/shop/articles/bar-1869656_1920.jpg?v=1660683986');
+            background-position: center;
+            width: 100%;
+            height: 600px;
+            display: flex;
+        }
     </style>
 </head>
 
 <body>
 
 
-    <header>
-<div id="logo">
-    <img src="icon.png" alt="Caffeine Routine Icon" width="80">
-</div>
-<div id="nav">
-    <a href="" style="color: white;">Home</a>
-    <a href="" style="color: white;">About</a>
-    <a href="" style="color: white;">Shop</a>
-    <a href="" style="color: white;">Blog</a>
-    <a href="" style="color: white;">Contact</a>
+<header style="display: flex; align-items: center; justify-content: space-between; padding: 20px 60px;">
+  
+  <div id="logo">
+    <img src="icon2.png" alt="Caffeine Routine Icon" width="110" 
+         style="border: 1px solid white; border-radius: 20%; padding: 10px;">
+  </div>
+
+  <div id="nav" style="display: flex; align-items: center; gap: 30px;">
+    <a href="#" style="color: white; text-decoration: none; font-weight: bold; font-size: 16px;">Home</a>
+    <a href="#" style="color: white; text-decoration: none; font-weight: bold; font-size: 16px;">About</a>
+    <a href="#" style="color: white; text-decoration: none; font-weight: bold; font-size: 16px;">Shop</a>
+    <a href="#" style="color: white; text-decoration: none; font-weight: bold; font-size: 16px;">Blog</a>
+    <a href="#" style="color: white; text-decoration: none; font-weight: bold; font-size: 16px;">Contact</a>
     <img src="shopping-cart.png" alt="" width="30">
     <img src="search.png" alt="" width="30">
     <img src="menu.png" alt="" width="30">
-</div>
+  </div>
+
 </header>
+
     <div id="first">
         <div></div>
         <div style="display: flex;align-items: center; justify-content: center; flex-direction: column;">
@@ -203,31 +217,31 @@
     </div>
 
     <div id="third">
-        <!-- 4 items -->
-        <div>
+        <div style="display: flex; align-items: center; flex-direction: column;">
             <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-5.png" alt="">
             <h1>Types of Coffee</h1>
             <p style="width: 250px; text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
                 quia?</p>
         </div>
-        <div>
+        <div style="display: flex; align-items: center; flex-direction: column;">
             <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-6.png">
             <h1>Bean Varities</h1>
             <p style="width: 250px; text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
                 quia?</p>
         </div>
-        <div>
+        <div style="display: flex; align-items: center; flex-direction: column;">
             <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-7.png" alt="">
             <h1>Coffee & Pastry</h1>
             <p style="width: 250px; text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
                 quia?</p>
         </div>
-        <div>
+        <div style="display: flex; align-items: center; flex-direction: column;">
             <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-8.png" alt="">
             <h1>Coffee To Go</h1>
             <p style="width: 250px; text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
                 quia?</p>
         </div>
+        <br><br>
     </div>
 
     <div id="fourth">
@@ -266,23 +280,23 @@
     </div>
 
     <div id="seven">
-        <div>
-            <h1>250</h1>
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            <h1 style="color: #be9c79; font-size: 50px;">250</h1>
             <h1>Varieties of Coffee</h1>
             <p style="width: 250px; text-align: justify;">Lorem ipsum dolor sit amet...</p>
         </div>
-        <div>
-            <h1>123</h1>
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            <h1 style="color: #be9c79; font-size: 50px;">123</h1>
             <h1>Hours of Testing</h1>
             <p style="width: 250px; text-align: justify;">Lorem ipsum dolor sit amet...</p>
         </div>
-        <div>
-            <h1>321</h1>
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            <h1 style="color: #be9c79; font-size: 50px;">321</h1>
             <h1>Coffee Markets</h1>
             <p style="width: 250px; text-align: justify;">Lorem ipsum dolor sit amet...</p>
         </div>
-        <div>
-            <h1>220</h1>
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            <h1 style="color: #be9c79; font-size: 50px;">220</h1>
             <h1>Coffee Brands</h1>
             <p style="width: 250px; text-align: justify;">Lorem ipsum dolor sit amet...</p>
         </div>
@@ -325,7 +339,7 @@
         <p style="font-size: 22px;">Lorem ipsum dolor sit amet...</p>
     </div>
 
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 0 20px;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 0 20px; background-color: white;">
         <img src="1.png" alt="" width="300px">
         <img src="2.png" alt="" width="300px">
         <img src="3.png" alt="" width="300px">
@@ -348,6 +362,24 @@
         <p style="font-size: 25px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, laboriosam!</p>
         <button>CONTACT US</button>
     </div>
+
+    <div id="twelve">
+        <div style="background-color: rgba(0, 0, 0, 0.835); width: 100%; height: 600px; display: flex; align-items: center; flex-direction: column;">
+            <br><br>
+            <img src="icon2.png" alt="" style="width: 150px;">
+            <p style="color: white; width: 300px; text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum fuga earum blanditiis beatae. Odit, autem rerum? Sequi nobis incidunt cum.</p><br><br>
+            <h3 style="color: white;">STORIES</h3>
+            <p style="color: white; width: 250px; text-align: justify;">Dunsmuir Ave, Los Angeles, CA 90036, USA Atkins Ave, Brooklyn, NY 11208, USA</p>
+            <br><br>
+            <h3 style="color: white;">News As Fresh As Our Coffee</h3>
+
+        </div>
+    </div>
+
+    <div style="display: flex; width: 100%;">
+        <img src="footer.png" alt="">
+    </div>
+
 </body>
 
 </html>
